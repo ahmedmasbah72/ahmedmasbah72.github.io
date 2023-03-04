@@ -1,0 +1,111 @@
+
+html{
+    background-color:rgb(16, 29, 59);
+}
+
+body{
+    background-image: url(hiphop.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+
+}
+
+.navbar{
+    position: absolute;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url(hiphopblur.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(16, 29, 59);
+    width: 100%;
+    font-size: 70%;
+    border-radius: 5px;
+
+}   
+footer img{
+    width: 4%;
+}
+#showslide{
+    padding-left: 0%;
+    padding-right: -30px;
+    padding-top: 5%;
+
+
+}
+#linkedin{
+    width: 3%;
+}
+#instagram{
+    width: 4%;
+}
+
+#h11{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    font-size: 170%;
+    border-radius: 10px;
+    
+}
+
+#boxbox{
+    background-attachment: fixed;
+    background-image: url(hiphopblur.jpg);
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#btn1{
+    background-color: rgb(64, 149, 65);
+    color: white;
+    background: linear-gradient(160deg,transparent,rgb(64, 149, 65));
+    animation: linear infinite;
+}
+#btn1:hover{
+    background: #06b16d;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #06b992,
+                        0 0 25px #06b992,
+                        0 0 50px  #06b992,
+                        0 0 100px #06b992;
+}
+
+a{
+    background-color: rgb(55, 143, 215);
+    color: white;
+    background: linear-gradient(180deg,transparent,rgb(55, 143, 215));
+    animation: linear infinite;
+    border-radius: 45px;
+}
+a:hover{
+    background: #68bbff;
+    color: #fff;
+    border-radius: 45px;
+    box-shadow: 0 0 5px #68bbff,
+                0 0 25px #68bbff,
+                0 0 50px  #68bbff,
+                0 0 100px #68bbff;
+}
+#LOGOPRINCIPAL{
+    width: 60%;
+    margin-top: 15;
+    padding-top: 0%;
+    margin-left: 20%;
+  
+  }
