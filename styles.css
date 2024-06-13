@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    background: linear-gradient(to right, #15090b, #ff0000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 80%;
+}
+
+.header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    margin: 0;
+}
+
+.header p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.heart-container {
+    position: relative;
+    height: 200px;
+    margin: 20px 0;
+}
+
+.heart {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    transform-origin: center;
+    animation: pulse 1.5s infinite;
+}
+
+.heart::before,
+.heart::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.heart::before {
+    top: -50px;
+    left: 0;
+}
+
+.heart::after {
+    left: 50px;
+    top: 0;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: translate(-50%, -50%) rotate(-45deg) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) rotate(-45deg) scale(1.1);
+    }
+}
+
+.message p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 10px 0;
+}
+
+.footer p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
